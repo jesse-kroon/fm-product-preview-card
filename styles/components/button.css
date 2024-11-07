@@ -1,3 +1,18 @@
 button {
   width: 100%;
+  background-color: var(--color-aquamarine-light);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  font-family: "Montserrat";
+  padding: 15px 92px;
+  border-radius: 10px;
+  border: none;
+}
+
+button image {
+  width: 15px;
+  height: 16px;
 }
