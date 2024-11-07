@@ -5,3 +5,9 @@ header p {
   color: var(--color-aurometal);
   font-size: 12px;
 }
+
+@media only screen and (min-width: 67.5rem) {
+  header p {
+    margin-block: 32px 20px;
+  }
+}

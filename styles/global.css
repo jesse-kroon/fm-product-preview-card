@@ -8,7 +8,6 @@
 }
 
 .wrapper {
-  margin: 0 auto;
   padding-inline: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -37,4 +36,17 @@ h1,
 
 p {
   font-family: "Montserrat";
+}
+
+@media only screen and (min-width: 67.5rem) {
+  main {
+    display: flex;
+    max-width: 37.5rem;
+  }
+
+  .wrapper {
+    flex: 1;
+    padding-inline: 2rem;
+    max-width: 14.75rem;
+  }
 }

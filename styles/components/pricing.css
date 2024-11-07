@@ -13,3 +13,9 @@
   color: var(--color-aurometal);
   font-size: 13px;
 }
+
+@media only screen and (min-width: 67.5rem) {
+  #pricing {
+    margin-top: 29px;
+  }
+}
