@@ -1,0 +1,7 @@
+header p {
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--color-aurometal);
+  font-size: 12px;
+}

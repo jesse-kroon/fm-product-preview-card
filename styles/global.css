@@ -1,0 +1,40 @@
+:root {
+  --color-cream: hsl(28, 38%, 92%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-aurometal: hsl(228, 12%, 48%);
+  --color-aquamarine-dark: hsl(157, 43%, 18%);
+  --color-aquamarine-light: hsl(157, 36%, 37%);
+  --color-gunmetal: hsl(212, 21%, 14%);
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding-inline: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+body {
+  background-color: var(--color-cream);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 21.4375rem;
+  background-color: var(--color-white);
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h1,
+#discount-price {
+  font-family: "Fraunces";
+  font-size: 32px;
+  line-height: 32px;
+}
+
+p {
+  font-family: "Montserrat";
+}

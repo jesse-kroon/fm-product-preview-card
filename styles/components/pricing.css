@@ -1,0 +1,15 @@
+#pricing {
+  display: flex;
+}
+
+#discount-price {
+  color: var(--color-aquamarine-light);
+  margin-right: 19px;
+}
+
+#regular-price {
+  align-self: center;
+  text-decoration: line-through;
+  color: var(--color-aurometal);
+  font-size: 13px;
+}

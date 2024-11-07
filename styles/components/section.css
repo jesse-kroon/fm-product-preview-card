@@ -1,0 +1,6 @@
+section p {
+  color: var(--color-aurometal);
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+}
