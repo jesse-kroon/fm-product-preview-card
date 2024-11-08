@@ -5,6 +5,10 @@ section p {
   font-weight: 500;
 }
 
+section h1 {
+  color: var(--color-gunmetal);
+}
+
 @media only screen and (min-width: 67.5rem) {
   section p {
     margin-top: 24px;
